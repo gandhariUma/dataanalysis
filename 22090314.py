@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #reading csv file
-df=pd.read_csv("C:/Users/UMA/Documents/Sariya/Annual Greenhouse Gas (GHG) Air Emissions Accounts.csv")
+df=pd.read_csv("Annual Greenhouse Gas (GHG) Air Emissions Accounts.csv")
 df
 df.columns
 df["Country"].value_counts()#unique names of countries and count
@@ -201,8 +201,8 @@ def load_save_and_display_image(input_path, output_path, dpi=300):
     plt.imshow(img)
     plt.show()
 
-input_path = "C:/Users/UMA/Downloads/22090314300.png"
-output_path = "22090314300_saved.png"
+input_path = "22090314.png"
+output_path = "22090314300.png"
 load_save_and_display_image(input_path, output_path, dpi=300)
 
 
